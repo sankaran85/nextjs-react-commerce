@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import exposedTitle from '../components/exposedTitle'
+import ExportredTitle from '../components/exposedTitle'
 import React from "react";
 
 const Home = () => (
@@ -17,7 +17,7 @@ const Home = () => (
         </h1>
 
         <p>
-          <exposedTitle />
+          <ExportredTitle />
         </p>
 
         <p className={styles.description}>
